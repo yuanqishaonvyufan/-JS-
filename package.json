@@ -1,0 +1,16 @@
+{
+  "name": "baidu-fanyi-js-reverse-study",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node js/test_extracted.mjs",
+    "ast": "node js/analyze_ast.mjs",
+    "format": "node js/format_target.mjs"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "prettier": "^3.6.0"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://fanyi.baidu.com/ait/text/translate",
+    "headers": {
+      "Accept": "text/event-stream",
+      "Content-Type": "application/json",
+      "Origin": "https://fanyi.baidu.com",
+      "Referer": "https://fanyi.baidu.com/mtpe-individual/transText",
+      "Acs-Token": "<由Paris/ACS动态生成；此处不保存真实值>",
+      "Cookie": "<由浏览器或requests.Session维护；此处不保存真实值>"
+    },
+    "body": {
+      "needNewlineCombine": false,
+      "disableCache": false,
+      "isAi": false,
+      "sseStartTime": "<Date.now()>",
+      "query": "hello",
+      "from": "en",
+      "to": "zh",
+      "corpusIds": [],
+      "needPhonetic": true,
+      "domain": "common",
+      "detectLang": "",
+      "isIncognitoAI": false,
+      "milliTimestamp": "<Date.now()>"
+    }
+  },
+  "response": {
+    "contentType": "text/event-stream; charset=utf-8",
+    "importantEvents": [
+      "Start",
+      "StartTranslation",
+      "Translating",
+      "TranslationSucceed"
+    ],
+    "translationPath": "data.list[*].dst"
+  }
+}

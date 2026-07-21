@@ -1,0 +1,331 @@
+{
+  "patterns": [
+    "/ait/text/translate",
+    "milliTimestamp",
+    "useAcsToken",
+    "Acs-Token",
+    "getAcsInstance",
+    "getSign",
+    "paris_",
+    "abclite-",
+    "acs-",
+    "svcp_stk",
+    "TranslationSucceed",
+    "Translating"
+  ],
+  "files": [
+    {
+      "file": "captured/original/abclite-2060-s.js",
+      "characters": 191395,
+      "webpackModuleCount": 0,
+      "patterns": {}
+    },
+    {
+      "file": "captured/original/acs-2060.js",
+      "characters": 226158,
+      "webpackModuleCount": 0,
+      "patterns": {}
+    },
+    {
+      "file": "captured/original/index.570f2c7a.js",
+      "characters": 5358915,
+      "webpackModuleCount": 908,
+      "patterns": {
+        "/ait/text/translate": {
+          "count": 4,
+          "occurrences": [
+            {
+              "offset": 232295,
+              "webpackModule": "35353",
+              "context": ".Z0.LIMIT_STATUS});break;case\"GetDstSymbolsSucceed\":this.data.dstSymbols=t.dstSymbols}}},{key:\"start\",value:(n=s(l().mark((function t(e){var n,r,a,c,u,f,p=this;return l().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:try{null!=this.sse&&this.stop(),n=\"/ait/text/translate\",\"quickTools\"!==(null==e?void 0:e.reqType)?(r=e.domain,a=e.query,c=e.from,u=e.to,(0,i.C)({event:\"translate\",domain:r,charCount:a.length,from:c,to:u}),null!=e&&e.isIncognitoAI&&(n=\"/ait/text/translateIncognitoAi\")):(n=\"/ait/autopilot/transla"
+            },
+            {
+              "offset": 232495,
+              "webpackModule": "35353",
+              "context": "ch(t.prev=t.next){case 0:try{null!=this.sse&&this.stop(),n=\"/ait/text/translate\",\"quickTools\"!==(null==e?void 0:e.reqType)?(r=e.domain,a=e.query,c=e.from,u=e.to,(0,i.C)({event:\"translate\",domain:r,charCount:a.length,from:c,to:u}),null!=e&&e.isIncognitoAI&&(n=\"/ait/text/translateIncognitoAi\")):(n=\"/ait/autopilot/translate\",this.data.isQuickTools=!0,this.data.sentId=null==e?void 0:e.sentenceID),f=new AbortController,this.sseOpenHandler=function(t){t.status>=400&&p.onError({status:t.status,msg:b})},this.sseMsgHandler="
+            },
+            {
+              "offset": 398527,
+              "webpackModule": "71890",
+              "context": "e,\"\\n$$\\n\")}))).replace(/\\\\\\(([\\s\\S]+?)\\\\\\)/g,(function(t,e){return\"$\".concat(e,\"$\")}))}(r)),u),(e=e.replace(/\\n/g,\" \\n\")).replace(/\\^\\^\\[(\\d+)\\]/g,\"[$1]\"))}))}))},71890:function(t,e,n){\"use strict\";n.d(e,{q:function(){return a}});var r=n(95376),o=n.n(r),i={\"/ait/text/translate\":\"pc_aitTextTranslate\",\"/ait/text/translateIncognitoAi\":\"pc_translateIncognitoAi\",\"/ait/guest/picture/translate\":\"pc_aitPictureTranslateGuest\",\"/ait/guest/document/create\":\"pc_aitDocumentCreateGuest\"},a=function(t){var e=t.url,n=t.subid,r={"
+            },
+            {
+              "offset": 398571,
+              "webpackModule": "71890",
+              "context": "g,(function(t,e){return\"$\".concat(e,\"$\")}))}(r)),u),(e=e.replace(/\\n/g,\" \\n\")).replace(/\\^\\^\\[(\\d+)\\]/g,\"[$1]\"))}))}))},71890:function(t,e,n){\"use strict\";n.d(e,{q:function(){return a}});var r=n(95376),o=n.n(r),i={\"/ait/text/translate\":\"pc_aitTextTranslate\",\"/ait/text/translateIncognitoAi\":\"pc_translateIncognitoAi\",\"/ait/guest/picture/translate\":\"pc_aitPictureTranslateGuest\",\"/ait/guest/document/create\":\"pc_aitDocumentCreateGuest\"},a=function(t){var e=t.url,n=t.subid,r={ak:\"GwQd5oB5ffjzOlWBuCrufrvEDQJgEbzV\"};if(e)"
+            }
+          ]
+        },
+        "milliTimestamp": {
+          "count": 5,
+          "occurrences": [
+            {
+              "offset": 233771,
+              "webpackModule": "35353",
+              "context": "ull==p||null===(e=p.data)||void 0===e?void 0:e.logid}),p.stop(),t},this.sseCloseHandler=function(t){f.signal.aborted||p.onClose(t)},this.sse={},this.sse.req=(0,o.o)(n,{method:\"POST\",headers:{\"Content-Type\":\"application/json\"},body:JSON.stringify(d(d({},e),{},{milliTimestamp:Date.now()})),signal:f.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0,acsConf:{useAcsToken:!0,useCaptcha:!0}}),this.sse.ctrl=f}catch(t){}case 1:case\"end\":r"
+            },
+            {
+              "offset": 277301,
+              "webpackModule": "50978",
+              "context": "ed||l.onClose(t)},o=(0,u.A)((0,d.HB)()),i=o.promise,a=o.cancel,this.acePromiseCancel=a,t.next=12,i;case 12:c=t.sent,this.sse={},this.sse.req=(0,J.y)(n,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",\"Acs-Token\":c},body:JSON.stringify(et(et({},e),{},{milliTimestamp:Date.now()})),signal:r.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0}),this.sse.ctrl=r,t.next=20;break;case 18:t.prev=18,t.t0=t.catch(0);case 20:case\"end\""
+            },
+            {
+              "offset": 288927,
+              "webpackModule": "50978",
+              "context": "ed||l.onClose(t)},o=(0,u.A)((0,d.HB)()),i=o.promise,a=o.cancel,this.acePromiseCancel=a,t.next=12,i;case 12:c=t.sent,this.sse={},this.sse.req=(0,J.y)(n,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",\"Acs-Token\":c},body:JSON.stringify(bt(bt({},e),{},{milliTimestamp:Date.now()})),signal:r.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0}),this.sse.ctrl=r,t.next=20;break;case 18:t.prev=18,t.t0=t.catch(0);case 20:case\"end\""
+            },
+            {
+              "offset": 2745885,
+              "webpackModule": "25880",
+              "context": "|void 0===e?void 0:e.logid}),r.stop(),t},this.sseCloseHandler=function(t){n.signal.aborted||r.onClose(t)},this.sse={},this.sse.req=(0,lv.o)(\"/ait/text/getKeyphrase\",{method:\"POST\",headers:{\"Content-Type\":\"application/json\"},body:JSON.stringify(hv(hv({},e),{},{milliTimestamp:Date.now()})),signal:n.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0,acsConf:{useAcsToken:!0,useCaptcha:!0}}),this.sse.ctrl=n}catch(t){}case 1:case\"end\":r"
+            },
+            {
+              "offset": 3080495,
+              "webpackModule": "25880",
+              "context": "t){for(;;)switch(t.prev=t.next){case 0:\"fileId\"!==n&&i.append(n,e[n]);case 1:case\"end\":return t.stop()}}),t)})));return function(e){return t.apply(this,arguments)}}()),this.data.fileId=\"\"):(a[\"Content-Type\"]=\"application/json\",i=JSON.stringify(rk(rk({},e),{},{milliTimestamp:Date.now()}))),null!=e&&e.isLogin||(a=B({url:n,headers:a})),this.sse={},this.sse.req=(0,lv.o)(n,{method:\"POST\",headers:a,body:i,signal:r.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCl"
+            }
+          ]
+        },
+        "useAcsToken": {
+          "count": 12,
+          "occurrences": [
+            {
+              "offset": 233955,
+              "webpackModule": "35353",
+              "context": "aders:{\"Content-Type\":\"application/json\"},body:JSON.stringify(d(d({},e),{},{milliTimestamp:Date.now()})),signal:f.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0,acsConf:{useAcsToken:!0,useCaptcha:!0}}),this.sse.ctrl=f}catch(t){}case 1:case\"end\":return t.stop()}}),t,this)}))),function(t){return n.apply(this,arguments)})},{key:\"stop\",value:function(){var t;null!=this.sse&&(null===(t=this.sse)||void 0===t||t.ctrl.abort(),this.sse"
+            },
+            {
+              "offset": 485040,
+              "webpackModule": "83276",
+              "context": "t(e){var n,c,u,f,d,p=arguments;return l().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(c=(null==(n=p.length>1&&void 0!==p[1]?p[1]:{})?void 0:n.acsConf)||{},u=null==n?void 0:n.signal,f=(null==n?void 0:n.headers)||{},d=null==n?void 0:n.onmessage,!c.useAcsToken){t.next=11;break}return t.next=8,(0,i.SP)({headers:f});case 8:if(n.headers=t.sent,null==u||!u.aborted){t.next=11;break}return t.abrupt(\"return\");case 11:return null!=c&&c.useCaptcha&&(n.onmessage=function(){var t=s(l().mark((function t(n){var r;ret"
+            },
+            {
+              "offset": 1631135,
+              "webpackModule": "87878",
+              "context": ".stop()}}),t)})));return function(e){return t.apply(this,arguments)}}(),s=function(){var t=a(o().mark((function t(e){return o().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,window.v2Fetch({url:\"/transapi\",args:e,method:\"POST\",acsConf:{useAcsToken:!0}});case 2:return t.abrupt(\"return\",t.sent);case 3:case\"end\":return t.stop()}}),t)})));return function(e){return t.apply(this,arguments)}}(),f=function(){var t=a(o().mark((function t(e){return o().wrap((function(t){for(;;)switch(t.prev=t.next){ca"
+            },
+            {
+              "offset": 1641897,
+              "webpackModule": "87878",
+              "context": "r n,r,i,a;return o().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(n=e.reqParams,r=e.isFile,i=e.isChangeExpert,!e.isTrialDoc){t.next=5;break}return t.next=4,window.v2FetchWithFile({url:\"/ait/guest/document/create\",args:n,isUnauthRequest:!0,acsConf:{useAcsToken:!0,useCaptcha:!0}});case 4:case 9:case 13:return t.abrupt(\"return\",t.sent);case 5:if(!i){t.next=10;break}return n.fileId||(n.fileId=\"0000000000\"),t.next=9,G(n);case 10:return a=r?\"/mtpe/document/create\":\"/mtpe/document/createFromUrl\",t.next=13,wind"
+            },
+            {
+              "offset": 2086006,
+              "webpackModule": "25880",
+              "context": ",p,h,m,v,y;return H().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(n=e.url,r=e.args,o=void 0===r?{}:r,c=e.notUseDefaultErrCb,u=void 0!==c&&c,s=e.notifyConf,f=e.headers,d=void 0===f?{}:f,p=e.isUnauthRequest,h=void 0!==p&&p,m=e.acsConf,v=void 0===m?{useAcsToken:!1,useCaptcha:!1}:m,y={method:\"POST\",headers:V(V({},d||{}),{},{\"Content-Type\":\"application/json\"}),body:JSON.stringify(o)},h&&(y.headers=B({url:n,headers:y.headers})),null==v||!v.useAcsToken){t.next=7;break}return t.next=6,(0,i.SP)({headers:y.heade"
+            },
+            {
+              "offset": 2086197,
+              "webpackModule": "25880",
+              "context": "f?{}:f,p=e.isUnauthRequest,h=void 0!==p&&p,m=e.acsConf,v=void 0===m?{useAcsToken:!1,useCaptcha:!1}:m,y={method:\"POST\",headers:V(V({},d||{}),{},{\"Content-Type\":\"application/json\"}),body:JSON.stringify(o)},h&&(y.headers=B({url:n,headers:y.headers})),null==v||!v.useAcsToken){t.next=7;break}return t.next=6,(0,i.SP)({headers:y.headers});case 6:y.headers=t.sent;case 7:return t.abrupt(\"return\",fetch(n,V({credentials:\"include\"},y)).then((function(t){if(t.ok)return t.json();throw new Error(\"请求失败\")})).then((function(t){if(t&"
+            },
+            {
+              "offset": 2087384,
+              "webpackModule": "25880",
+              "context": "(function(t){for(;;)switch(t.prev=t.next){case 0:if(n=e.url,r=e.args,o=void 0===r?{}:r,u=e.headers,s=void 0===u?{}:u,f=e.method,d=void 0===f?\"GET\":f,p=e.errCallback,h=e.forceThrowErr,m=e.notifyConf,v=e.isUnauthRequest,y=void 0!==v&&v,b=e.acsConf,w=void 0===b?{useAcsToken:!1,useCaptcha:!1}:b,\"GET\"===d&&(n=\"\".concat(n,\"?\").concat(c.stringify(V({_:Date.now()},o),{arrayFormat:\"bracket\"}))),x={headers:s||{}},\"POST\"===d&&(x.method=\"POST\",x.headers=V(V({},x.headers),{},{\"Content-Type\":\"application/x-www-form-urlencoded\"})"
+            },
+            {
+              "offset": 2087748,
+              "webpackModule": "25880",
+              "context": "rrayFormat:\"bracket\"}))),x={headers:s||{}},\"POST\"===d&&(x.method=\"POST\",x.headers=V(V({},x.headers),{},{\"Content-Type\":\"application/x-www-form-urlencoded\"}),x.body=c.stringify(o,{arrayFormat:\"bracket\"})),y&&(x.headers=B({url:n,headers:x.headers})),null==w||!w.useAcsToken){t.next=9;break}return t.next=8,(0,i.SP)({headers:x.headers});case 8:x.headers=t.sent;case 9:return t.abrupt(\"return\",fetch(n,V({credentials:\"include\"},x)).then((function(t){if(t.ok)return t.json();throw new Error(\"请求失败\")})).then((function(t){if(t&"
+            }
+          ]
+        },
+        "Acs-Token": {
+          "count": 3,
+          "occurrences": [
+            {
+              "offset": 277251,
+              "webpackModule": "50978",
+              "context": "t},this.sseCloseHandler=function(t){r.signal.aborted||l.onClose(t)},o=(0,u.A)((0,d.HB)()),i=o.promise,a=o.cancel,this.acePromiseCancel=a,t.next=12,i;case 12:c=t.sent,this.sse={},this.sse.req=(0,J.y)(n,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",\"Acs-Token\":c},body:JSON.stringify(et(et({},e),{},{milliTimestamp:Date.now()})),signal:r.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0}),this.sse.ctrl=r,t.next=20;break;c"
+            },
+            {
+              "offset": 288877,
+              "webpackModule": "50978",
+              "context": "t},this.sseCloseHandler=function(t){r.signal.aborted||l.onClose(t)},o=(0,u.A)((0,d.HB)()),i=o.promise,a=o.cancel,this.acePromiseCancel=a,t.next=12,i;case 12:c=t.sent,this.sse={},this.sse.req=(0,J.y)(n,{method:\"POST\",headers:{\"Content-Type\":\"application/json\",\"Acs-Token\":c},body:JSON.stringify(bt(bt({},e),{},{milliTimestamp:Date.now()})),signal:r.signal,onopen:this.sseOpenHandler,onmessage:this.sseMsgHandler,onerror:this.sseErrHandler,onclose:this.sseCloseHandler,openWhenHidden:!0}),this.sse.ctrl=r,t.next=20;break;c"
+            },
+            {
+              "offset": 476524,
+              "webpackModule": "88172",
+              "context": "return g.apply(this,arguments)}function g(){return(g=d(s().mark((function t(e){var n,r,o;return s().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return n=e.headers,r=void 0===n?{}:n,t.next=3,m();case 3:return o=t.sent,t.abrupt(\"return\",u(u({},r),{},{\"Acs-Token\":o}));case 5:case\"end\":return t.stop()}}),t)})))).apply(this,arguments)}i()((function(){a.e.create({sid:h,timeout:5e3,abcliteUrl:\"https://dlswbr.baidu.com/heicha/mw/abclite-\".concat(h,\"-s.js\"),abcliteFields:{subid:function(){return window.parisSubId}"
+            }
+          ]
+        },
+        "getAcsInstance": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 476046,
+              "webpackModule": "88172",
+              "context": "){return v.apply(this,arguments)}function v(){return(v=d(s().mark((function t(){return s().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,p.getAsync();case 2:return t.abrupt(\"return\",new Promise((function(t,e){window[\"paris_\".concat(h)].getAcsInstance((function(e,n){if(e){var r=e.code||600;t(r)}else n.getSign((function(e,n){if(e){var r=e.code||600;t(r)}else t(n)}))}))})));case 3:case\"end\":return t.stop()}}),t)})))).apply(this,arguments)}function y(t){return g.apply(this,arguments)}function g("
+            }
+          ]
+        },
+        "getSign": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 476112,
+              "webpackModule": "88172",
+              "context": "(function t(){return s().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,p.getAsync();case 2:return t.abrupt(\"return\",new Promise((function(t,e){window[\"paris_\".concat(h)].getAcsInstance((function(e,n){if(e){var r=e.code||600;t(r)}else n.getSign((function(e,n){if(e){var r=e.code||600;t(r)}else t(n)}))}))})));case 3:case\"end\":return t.stop()}}),t)})))).apply(this,arguments)}function y(t){return g.apply(this,arguments)}function g(){return(g=d(s().mark((function t(e){var n,r,o;return s().wrap((fu"
+            }
+          ]
+        },
+        "paris_": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 476027,
+              "webpackModule": "88172",
+              "context": "=\"2060\";function m(){return v.apply(this,arguments)}function v(){return(v=d(s().mark((function t(){return s().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,p.getAsync();case 2:return t.abrupt(\"return\",new Promise((function(t,e){window[\"paris_\".concat(h)].getAcsInstance((function(e,n){if(e){var r=e.code||600;t(r)}else n.getSign((function(e,n){if(e){var r=e.code||600;t(r)}else t(n)}))}))})));case 3:case\"end\":return t.stop()}}),t)})))).apply(this,arguments)}function y(t){return g.apply(this,arg"
+            }
+          ]
+        },
+        "abclite-": {
+          "count": 2,
+          "occurrences": [
+            {
+              "offset": 476699,
+              "webpackModule": "88172",
+              "context": "void 0===n?{}:n,t.next=3,m();case 3:return o=t.sent,t.abrupt(\"return\",u(u({},r),{},{\"Acs-Token\":o}));case 5:case\"end\":return t.stop()}}),t)})))).apply(this,arguments)}i()((function(){a.e.create({sid:h,timeout:5e3,abcliteUrl:\"https://dlswbr.baidu.com/heicha/mw/abclite-\".concat(h,\"-s.js\"),abcliteFields:{subid:function(){return window.parisSubId}},acsUrl:\"https://dlswbr.baidu.com/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\"),disasterConfig:{abcliteUrl:\"https://miaowu.baidu.com/sdk/heicha/mw/abclite-\".concat(h,\"-s.js\")"
+            },
+            {
+              "offset": 476932,
+              "webpackModule": "88172",
+              "context": "dlswbr.baidu.com/heicha/mw/abclite-\".concat(h,\"-s.js\"),abcliteFields:{subid:function(){return window.parisSubId}},acsUrl:\"https://dlswbr.baidu.com/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\"),disasterConfig:{abcliteUrl:\"https://miaowu.baidu.com/sdk/heicha/mw/abclite-\".concat(h,\"-s.js\"),secondReportUrl:\"https://miaowu.baidu.com/slim/abdr\",acsUrl:\"https://miaowu.baidu.com/sdk/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\")}}),p.set(!0)}))},74575:function(t,e,n){\"use strict\";n.d(e,{Uc:function(){return o}}),n(1218),n(1"
+            }
+          ]
+        },
+        "acs-": {
+          "count": 2,
+          "occurrences": [
+            {
+              "offset": 476842,
+              "webpackModule": "88172",
+              "context": ").apply(this,arguments)}i()((function(){a.e.create({sid:h,timeout:5e3,abcliteUrl:\"https://dlswbr.baidu.com/heicha/mw/abclite-\".concat(h,\"-s.js\"),abcliteFields:{subid:function(){return window.parisSubId}},acsUrl:\"https://dlswbr.baidu.com/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\"),disasterConfig:{abcliteUrl:\"https://miaowu.baidu.com/sdk/heicha/mw/abclite-\".concat(h,\"-s.js\"),secondReportUrl:\"https://miaowu.baidu.com/slim/abdr\",acsUrl:\"https://miaowu.baidu.com/sdk/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\")}}),p.s"
+            },
+            {
+              "offset": 477073,
+              "webpackModule": "88172",
+              "context": "u.com/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\"),disasterConfig:{abcliteUrl:\"https://miaowu.baidu.com/sdk/heicha/mw/abclite-\".concat(h,\"-s.js\"),secondReportUrl:\"https://miaowu.baidu.com/slim/abdr\",acsUrl:\"https://miaowu.baidu.com/sdk/heicha/mm/\".concat(h,\"/acs-\").concat(h,\".js\")}}),p.set(!0)}))},74575:function(t,e,n){\"use strict\";n.d(e,{Uc:function(){return o}}),n(1218),n(17996),n(53843);var r={MEMBER:1,ADMIN:2};r.ALL=[r.ADMIN,r.MEMBER];var o={DOC_TRANS:\"DOC_TRANS\",CORPUS_MANAGE:\"CORPUS_MANAGE\"}},39505:function("
+            }
+          ]
+        },
+        "svcp_stk": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 399205,
+              "webpackModule": "71890",
+              "context": "/^\\/\\//,\"\")).split(\"?\")[0].split(\"#\")[0]).startsWith(\"/\"))return e||\"\";var n=e.indexOf(\"/\");return-1===n?\"\":e.substring(n)||\"\"}(e);i[a]&&(r.subid=i[a])}n&&(r.subid=n);var c=o().createCaptcha(r);c.showPopup(),c.onSuccess((function(t){var e,n,r;document.cookie=\"svcp_stk=\".concat(t.stk,\"; expires=\").concat(new Date(Date.now()+6e4).toUTCString(),\";path=/\"),null===(e=window)||void 0===e||null===(n=e.location)||void 0===n||null===(r=n.reload)||void 0===r||r.call(n)}))}},11202:function(t,e,n){\"use strict\";n.d(e,{D5:functi"
+            }
+          ]
+        },
+        "TranslationSucceed": {
+          "count": 2,
+          "occurrences": [
+            {
+              "offset": 229959,
+              "webpackModule": "35353",
+              "context": "tFirstTockenTime){var E=(new Date).getTime();console.log(\"seeEndTime\",E),this.data.getFirstTockenTime=E-(null==e?void 0:e.sseStartTime),console.log(\"this.data.getFirstTockenTime AI\",this.data.getFirstTockenTime)}this.data.isIntermediateCompleted=!1;break;case\"TranslationSucceed\":var k;this.data.surplusWord={surplusWordCount:t.surplusWordCount,surplusAiWordCount:t.surplusAiWordCount,matchStat:d(d({},null==t?void 0:t.matchStat),{},{_fr:\"sse\"})};var _=null==t||null===(k=t.thinking)||void 0===k?void 0:k.content;if(_){v"
+            },
+            {
+              "offset": 3076083,
+              "webpackModule": "25880",
+              "context": "qTime:null,getSseTransTime:null,getAcsSignTime:null}}},{key:\"buildData\",value:function(t,e){switch(t.event){case\"BackfillSucceed\":this.data.targetUrl=t.targetUrl,null!=t&&t.translationUnits&&(this.data.targetUnits=null==t?void 0:t.translationUnits);break;case\"TranslationSucceed\":console.log(\"图片翻译 TRANSLATING cost：\",uk(\"translation\")),this.data.targetUnits=null==t?void 0:t.translationUnits,this.data.transStatus=2;var n=(new Date).getTime();console.log(\"seeReqEndTime\",n),this.data.getSseTransTime=n-(null==e?void 0:e."
+            }
+          ]
+        },
+        "Translating": {
+          "count": 3,
+          "occurrences": [
+            {
+              "offset": 228127,
+              "webpackModule": "35353",
+              "context": "ll===(c=this.data)||void 0===c||null===(l=c.thinking)||void 0===l||null===(u=l.loading)||void 0===u?void 0:u.length),f={loading:[t.content],finish:[].concat(p(s?[]:this.data.thinking.finish),p(s?[]:this.data.thinking.loading))};this.data.thinking=f;break;case\"Translating\":var h,m;null!==(h=this.data)&&void 0!==h&&h.isQuickTools||(0,i.t)({event:\"translate\"});var v={loading:[],finish:[].concat(p(this.data.thinking.finish),p(this.data.thinking.loading))};this.data.thinking=v;var y=null!==(m=this.data)&&void 0!==m&&m.i"
+            },
+            {
+              "offset": 2096277,
+              "webpackModule": "25880",
+              "context": "lt\"}],\"uaqnpS\":[{\"type\":0,\"value\":\"Translate\"}],\"uuBesF\":[{\"type\":0,\"value\":\"Preparing\"}],\"vLCY8A\":[{\"type\":0,\"value\":\"File uploading\"}],\"vU053u\":[{\"type\":0,\"value\":\"Direction\"}],\"xWXiC1\":[{\"type\":0,\"value\":\"Unparseable formula\"}],\"y6QCTp\":[{\"type\":0,\"value\":\"Translating now. Please wait...\"}],\"y7ehDE\":[{\"type\":0,\"value\":\"Name\"}],\"yREw/7\":[{\"type\":0,\"value\":\"(If you leave halfway, you can check it in the Project Management)\"}],\"yoL+9S\":[{\"type\":0,\"value\":\"Name\"}],\"zkcj4V\":[{\"type\":0,\"value\":\"Number of entries\"}]}')"
+            },
+            {
+              "offset": 3076368,
+              "webpackModule": "25880",
+              "context": "le.log(\"图片翻译 TRANSLATING cost：\",uk(\"translation\")),this.data.targetUnits=null==t?void 0:t.translationUnits,this.data.transStatus=2;var n=(new Date).getTime();console.log(\"seeReqEndTime\",n),this.data.getSseTransTime=n-(null==e?void 0:e.sseStartTime);break;case\"Translating\":var r,o;lk.translationStart||(lk.translationStart=+new Date);var i=null==t||null===(r=t.translationUnit)||void 0===r?void 0:r.id,a=$E(null===(o=this.data)||void 0===o?void 0:o.targetUnits),c=null==a?void 0:a.findIndex((function(t){return(null==t?v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "captured/original/runtime.692330f3.js",
+      "characters": 6662,
+      "webpackModuleCount": 0,
+      "patterns": {}
+    },
+    {
+      "file": "captured/original/uni_login_wrapper.js",
+      "characters": 8634,
+      "webpackModuleCount": 0,
+      "patterns": {}
+    },
+    {
+      "file": "captured/original/vendors.5568ef9a.js",
+      "characters": 4567063,
+      "webpackModuleCount": 0,
+      "patterns": {
+        "getAcsInstance": {
+          "count": 2,
+          "occurrences": [
+            {
+              "offset": 1296460,
+              "webpackModule": null,
+              "context": "veResponse=function(){return o},t.getPrevAbcliteActiveError=function(){return r}}(r),function(e){var t;e.initAcs=function(n){var r=n.sid,o=n.disasterConfig,i=void 0===o?{}:o,a=n.acsUrl;if(a){e._acsInited=!0;var s=M(n),u=f(r,k),c=l(i,\"acsUrl\");t=u(a,c,s,i)}},e.getAcsInstance=function(e){if(!t)throw new Error(\"Missing param `acsUrl` during initialization\");t((function(t){t.getTarget((function(n){if(n)return e(n,null);var r=t.instance;e(null,r)}))}))};var n=null;e.getAcsToken=function(t,r){1===arguments.length&&(r=t,t"
+            },
+            {
+              "offset": 1296727,
+              "webpackModule": null,
+              "context": "nstance=function(e){if(!t)throw new Error(\"Missing param `acsUrl` during initialization\");t((function(t){t.getTarget((function(n){if(n)return e(n,null);var r=t.instance;e(null,r)}))}))};var n=null;e.getAcsToken=function(t,r){1===arguments.length&&(r=t,t=\"\"),e.getAcsInstance((function(e,o){if(e)return n=e,void r(e.code||600);o.getSign((function(e,t){if(e)return n=e,void r(e.code||600);n=null,r(t)}),t)}))},e.getPrevAcsTokenError=function(){return n}}(r),function(e){var t,n,r,o;e.getAcsTokenWithAbcliteActiveReport=(t="
+            }
+          ]
+        },
+        "getSign": {
+          "count": 2,
+          "occurrences": [
+            {
+              "offset": 1294634,
+              "webpackModule": null,
+              "context": ",\"clientCacheTTL\",120),mainReportUrl:l(n,\"mainReportUrl\"),secondReportUrl:l(n,\"secondReportUrl\"),reportTimeout:l(n,\"reportTimeout\",5e3)}}var T=function(e){function n(t,n){var r;return(r=e.call(this,t,\"acs\",n)||this).state=1,r}t(n,e);var r=n.prototype;return r.getSign=function(e,t){void 0===t&&(t=\"\");var n=this.monitor,r=c(),o=function(t,o){var i=c()-r;t?n.error(h,i,t):n.success(h,i),e(t,o)};this.getTarget((function(e,n){if(e)return o(e);try{n.gs((function(e,t){o(t,e)}),t)}catch(e){e=s.create(553,e),o(e)}}))},r.conf"
+            },
+            {
+              "offset": 1296795,
+              "webpackModule": null,
+              "context": "ring initialization\");t((function(t){t.getTarget((function(n){if(n)return e(n,null);var r=t.instance;e(null,r)}))}))};var n=null;e.getAcsToken=function(t,r){1===arguments.length&&(r=t,t=\"\"),e.getAcsInstance((function(e,o){if(e)return n=e,void r(e.code||600);o.getSign((function(e,t){if(e)return n=e,void r(e.code||600);n=null,r(t)}),t)}))},e.getPrevAcsTokenError=function(){return n}}(r),function(e){var t,n,r,o;e.getAcsTokenWithAbcliteActiveReport=(t=function(t,n){1===arguments.length&&(n=t,t={isWait:!1});var r=l(t,\"i"
+            }
+          ]
+        },
+        "paris_": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 1297902,
+              "webpackModule": null,
+              "context": "eate:function(e){var t,n=e.sid,r=e.abcliteUrl,o=e.acsUrl,i=(window.PARIS_INSTANCE_CACHE||(window.PARIS_INSTANCE_CACHE={}),window.PARIS_INSTANCE_CACHE);return n&&i[n]?(t=i[n],r&&!t._abcliteInited&&t.initAbclite(e),o&&!t._acsInited&&t.initAcs(e)):t=N(e),window[\"paris_\"+n]=i[n]=t,t},VERSION:O,VERSION_FLAG:function(e){for(var t=e.split(\".\"),n=1,r=0,o=t.length-1;o>=0;o--,n*=100){var i=t[o];r+=(i=Number(i.split(\"-\")[0]))*n}return r}(O)};\"undefined\"!=typeof window&&function(){if(window.ParisFactory){var e=window.ParisFact"
+            }
+          ]
+        },
+        "acs-": {
+          "count": 1,
+          "occurrences": [
+            {
+              "offset": 1287626,
+              "webpackModule": null,
+              "context": "{},c,{src:u,retryCnt:l(f,\"secondCDNRetryCnt\",0),mainReportRetryCnt:l(f,\"mainReportRetryCnt\",1),secondReportRetryCnt:l(f,\"secondReportRetryCnt\",0)});r=new n(t,s)}a()})):(o=!0,a()),function(e){var t;o?e(r):(t=e,i.push(t))}}},d=\"auto-report\",p=\"active-report\",h=\"acs-get-sign\",m=[551,552,553],g=\"2.2.1\",v=!1,y=function(){function e(e,t){this.sid=e,this.group=t}var t=e.prototype;return t.log=function(e,t){(v||t)&&function(e){var t=e.url,n=e.data,r=e.success,o=e.error,i=e.headers,a=void 0===i?{}:i,s=e.withCredentials,l=wi"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

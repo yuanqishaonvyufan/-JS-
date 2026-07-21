@@ -1,0 +1,104 @@
+{
+  "pageUrl": "https://fanyi.baidu.com/mtpe-individual/transText",
+  "note": "文件hash和内容会随百度发布变化；重新运行脚本即可刷新。",
+  "assets": [
+    {
+      "kind": "page",
+      "url": "https://fanyi.baidu.com/mtpe-individual/transText",
+      "file": "captured/original/page.html",
+      "status": 200,
+      "bytes": 28802,
+      "sha256": "1cab5fc089ba759b2ab3ce5cd35ecd9467e66d27cf4c5febcd6d535e3ea365c0"
+    },
+    {
+      "kind": "javascript",
+      "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/runtime.692330f3.js",
+      "file": "captured/original/runtime.692330f3.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bytes": 6662,
+      "sha256": "0fc54550c3c47d7111acf7b481a380aeef2fdf1a2265f54cd9505874d9175670",
+      "sourceMap": {
+        "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/runtime.692330f3.js.map",
+        "status": 404,
+        "available": false,
+        "bytes": 117
+      }
+    },
+    {
+      "kind": "javascript",
+      "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/vendors.5568ef9a.js",
+      "file": "captured/original/vendors.5568ef9a.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bytes": 4616674,
+      "sha256": "799e096125b19a708dc43827d7a6d1410ffc6972b14b79920963f2f286d5370d",
+      "sourceMap": {
+        "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/vendors.5568ef9a.js.map",
+        "status": 404,
+        "available": false,
+        "bytes": 117
+      }
+    },
+    {
+      "kind": "javascript",
+      "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/index.570f2c7a.js",
+      "file": "captured/original/index.570f2c7a.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "bytes": 5509213,
+      "sha256": "427df900679dc460a883baa7fd908778cabe92e7911bce220b394a6b7226872a",
+      "sourceMap": {
+        "url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/js/index.570f2c7a.js.map",
+        "status": 404,
+        "available": false,
+        "bytes": 117
+      }
+    },
+    {
+      "kind": "javascript",
+      "url": "https://passport.baidu.com/passApi/js/uni_login_wrapper.js",
+      "file": "captured/original/uni_login_wrapper.js",
+      "status": 200,
+      "contentType": "application/x-javascript",
+      "bytes": 8634,
+      "sha256": "89627c992db9ca18efef758d4f60cbc2d9fee1220c777e45bda2a825b69975a2",
+      "sourceMap": {
+        "url": "https://passport.baidu.com/passApi/js/uni_login_wrapper.js.map",
+        "status": 200,
+        "available": true,
+        "bytes": 6355
+      }
+    },
+    {
+      "kind": "javascript",
+      "url": "https://dlswbr.baidu.com/heicha/mw/abclite-2060-s.js",
+      "file": "captured/original/abclite-2060-s.js",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 191395,
+      "sha256": "f409b17902d723c0e6c7890f187d9308c1526eb9c6b8256a993e41976373f68d",
+      "sourceMap": {
+        "url": "https://dlswbr.baidu.com/heicha/mw/abclite-2060-s.js.map",
+        "status": 404,
+        "available": false,
+        "bytes": 555
+      }
+    },
+    {
+      "kind": "javascript",
+      "url": "https://dlswbr.baidu.com/heicha/mm/2060/acs-2060.js",
+      "file": "captured/original/acs-2060.js",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 226270,
+      "sha256": "9c696aa38caf037c95f607637c09227f8a3cc9bd2a67d2663a85b3f44b992bf5",
+      "sourceMap": {
+        "url": "https://dlswbr.baidu.com/heicha/mm/2060/acs-2060.js.map",
+        "status": 404,
+        "available": false,
+        "bytes": 555
+      }
+    }
+  ]
+}
